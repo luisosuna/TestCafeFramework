@@ -1,0 +1,11 @@
+{
+    "src": "./Tests/ExamplePageSuite",
+    "browsers": ["chrome"],
+    "output": "reports/report.xml",
+    "screenshots": {
+        "takeOnFails": true
+    },
+    "debugOnFail": false,
+    "concurrency": 1
+
+}
