@@ -9,3 +9,11 @@ test('Text typing basics', async t => {
         .typeText(page.nameInput, 'Paker', { replace: true })
         .expect(page.nameInput.value).eql('Parker');
 });
+
+test('Click check boxes and then verify their state', async t => {
+    for (const feature of page.featureList) {
+        await t
+            .click(feature.label)
+            .expect(feature.checkbox.checked).ok();
+    }
+});
