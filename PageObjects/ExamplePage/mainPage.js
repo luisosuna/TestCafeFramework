@@ -1,4 +1,5 @@
 import { Selector } from 'testcafe';
+const label = Selector('label');
 
 class Feature {
     constructor (text) {
