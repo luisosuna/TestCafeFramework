@@ -1,6 +1,6 @@
 {
     "src": "./Tests/",
-    "browsers": ["chrome"],
+    "browsers": ["lambdatest:Chrome@74.0:Windows 8"],
     "output": "reports/report.xml",
     "screenshots": {
         "takeOnFails": true
