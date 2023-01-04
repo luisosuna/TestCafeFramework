@@ -1,7 +1,9 @@
 {
-    "src": "./Tests/",
-    "browsers": ["lambdatest:Chrome@74.0:Windows 8"],
-    "output": "reports/report.xml",
+    "src": "./Tests/UnosquareTests.js",
+    "browsers":"chrome",
+    "reporter":["spec", {
+        "name": "xunit",
+        "output": "report.xml"}],
     "screenshots": {
         "takeOnFails": true
     },

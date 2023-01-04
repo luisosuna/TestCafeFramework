@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.7.1",
-    "testcafe-browser-provider-lambdatest": "^2.0.22"
+    "testcafe-browser-provider-lambdatest": "^2.0.23"
+  },
+  "devDependencies": {
+    "testcafe": "^1.20.1"
   }
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 108.0.0.0 / Windows 10" tests="2" failures="0" skipped="0" errors="0" time="11.13" timestamp="Wed, 04 Jan 2023 03:43:33 GMT" >
+  <testcase classname="Unosquare Fixture" file="C:\Users\luis.osuna\Documents\Repos\TestCafeFramework\Tests\UnosquareTests.js" name="Search Feature Positive Scenario" time="8.122">
+  </testcase>
+  <testcase classname="Unosquare Fixture" file="C:\Users\luis.osuna\Documents\Repos\TestCafeFramework\Tests\UnosquareTests.js" name="Search Feature Negative Scenario" time="2.955">
+  </testcase>
+</testsuite>
